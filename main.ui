@@ -6,13 +6,33 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>717</width>
+    <width>604</width>
     <height>1680</height>
    </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>BusyCursor</cursorShape>
   </property>
   <property name="windowTitle">
    <string>MKHelper</string>
   </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="sizeConstraint">
+    <enum>QLayout::SetFixedSize</enum>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+  </layout>
  </widget>
  <resources/>
  <connections/>
